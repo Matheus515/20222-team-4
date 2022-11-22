@@ -7,6 +7,7 @@ class Pagamento {
     public:
     Pagamento ();
     // calcular o salario no final do mes;
-    double salario_final();
+    double totalComissao ();
+    double salarioFinal();
         
 };
