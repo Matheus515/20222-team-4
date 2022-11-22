@@ -11,13 +11,14 @@ class Funcionario {
 
     
     public:
-    Funcionario(std::string nome, int matricula, double comissao, double salario, double horas_semanais); // construtor
+    Funcionario(std::string nome, int matricula, double porcentagem_comissao, double salario_base, double horas_semanais, double valor_hora_extra); // construtor
     ~Funcionario(); // desconstrutor
     std::string get_nome();
     int get_matricula();
-    double get_comissao();
-    double get_salario();
+    double get_porcentagem_comissao();
+    double get_salario_base();
     double get_horas_semanais();
+    double get_valor_hora_extra();
     // calcular o salario no final do mes;
     double salario_final();
 
