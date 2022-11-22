@@ -7,7 +7,7 @@ class Funcionario {
     double _porcentagem_comissao;
     double _salario_base;
     double _horas_semanais;
-    double _valor_hora_extra;
+    double _salario_final;
 
     
     public:
@@ -18,8 +18,5 @@ class Funcionario {
     double get_porcentagem_comissao();
     double get_salario_base();
     double get_horas_semanais();
-    double get_valor_hora_extra();
-    // calcular o salario no final do mes;
-    double salario_final();
 
 };

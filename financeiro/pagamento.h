@@ -2,9 +2,11 @@
 
 class Pagamento {
     private:
-        int _salario;
         int _comissao;
-        int _horas_extras;
+        double _salario_final;
     public:
+    Pagamento ();
+    // calcular o salario no final do mes;
+    double salario_final();
         
 };
