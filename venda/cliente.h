@@ -8,12 +8,18 @@ class Cliente {
         double _desconto;
     
     public:
-        Cliente (std::string nome, int cpf_cliente, int total_compras, double desconto);
+        Cliente ();
         ~Cliente();
-        void cadastra_cliente();
+
         std::string get_nome();
+        int set_cpf_cliente();
+        int set_total_compras();
+        double set_desconto();
+
         int get_cpf_cliente();
         int get_total_compras();
         double get_desconto();
+
+        void cadastra_cliente(std::string nome, int cpf_cliente, int total_compras, double desconto);
  
 };

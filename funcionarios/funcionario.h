@@ -12,6 +12,14 @@ class Funcionario {
     public:
     Funcionario(std::string nome, int matricula, double porcentagem_comissao, double salario_base, double horas_semanais); // construtor
     ~Funcionario(); // desconstrutor
+
+    std::string set_nome();
+    int set_matricula();
+    double set_porcentagem_comissao();
+    double set_salario_base();
+    double set_horas_semanais();
+
+
     std::string get_nome();
     int get_matricula();
     double get_porcentagem_comissao();
