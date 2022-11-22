@@ -2,7 +2,7 @@
 
 class Pagamento {
     private:
-        int _comissao;
+        int _total_comissao;
         double _salario_final;
     public:
     Pagamento ();
