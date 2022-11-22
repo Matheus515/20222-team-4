@@ -2,8 +2,9 @@
 
 class Pagamento {
     private:
-        int _salario_base;
+        int _salario;
         int _comissao;
+        int _horas_extras;
     public:
         
 };

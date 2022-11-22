@@ -4,9 +4,11 @@ class Funcionario {
     private:
     std::string _nome;
     int _matricula;
-    double _comissao;
-    double _salario;
+    double _porcentagem_comissao;
+    double _salario_base;
     double _horas_semanais;
+    double _valor_hora_extra;
+
     
     public:
     Funcionario(std::string nome, int matricula, double comissao, double salario, double horas_semanais); // construtor
