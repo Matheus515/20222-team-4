@@ -7,7 +7,6 @@ class Funcionario {
     double _porcentagem_comissao;
     double _salario_base;
     double _horas_semanais;
-    double _salario_final;
 
     
     public:
