@@ -10,7 +10,7 @@ class Funcionario {
 
     
     public:
-    Funcionario(std::string nome, int matricula, double porcentagem_comissao, double salario_base, double horas_semanais, double valor_hora_extra); // construtor
+    Funcionario(std::string nome, int matricula, double porcentagem_comissao, double salario_base, double horas_semanais); // construtor
     ~Funcionario(); // desconstrutor
     std::string get_nome();
     int get_matricula();
